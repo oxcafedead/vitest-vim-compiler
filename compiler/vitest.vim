@@ -14,7 +14,7 @@ endif
 let s:cpo_save = &cpo
 set cpo&vim
 
-CompilerSet makeprg=node_modules/.bin/vitest\ --no-color %
+CompilerSet makeprg=node_modules/.bin/vitest\ --no-color\ %
 
 CompilerSet errorformat=
 	\%E\ FAIL\ %.%#,
